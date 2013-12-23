@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cc_gradient</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIColor *topColor = [UIColor colorWithRed:(&lt;#Red#&gt;.0f/255) green:(&lt;#Green#&gt;.0f/255.0f) blue:(&lt;#Blue#&gt;.0f/255.0f) alpha:1.0f];
+UIColor *bottomColor = [UIColor colorWithRed:(&lt;#Red#&gt;.0f/255) green:(&lt;#Green#&gt;.0f/255.0f) blue:(&lt;#Blue#&gt;.0f/255.0f) alpha:1.0f];
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+gradient.frame = &lt;#Object Frame#&gt;
+    gradient.colors = [NSArray arrayWithObjects:(id)[topColor CGColor], (id)[bottomColor CGColor], nil];
+[&lt;#Object#&gt;.layer addSublayer:gradient];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C93DA8C4-E0CE-4EF0-8A63-AEDEA655F8B7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Gradient Background</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
