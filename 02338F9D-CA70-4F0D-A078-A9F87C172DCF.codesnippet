@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cc_p_cgrect</string>
+	<string>cc_block_local</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) CGRect &lt;#name#&gt;;</string>
+	<string>&lt;#Return Type#&gt; (^&lt;#Block Name#&gt;)(&lt;#Parameter Types#&gt;) = ^&lt;#Return Type#&gt;(&lt;#parameters#&gt;) {
+
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BEB91447-974D-4D76-9117-09108E2CC722</string>
+	<string>02338F9D-CA70-4F0D-A078-A9F87C172DCF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property: CGRect</string>
+	<string>Block: Local declaration</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
