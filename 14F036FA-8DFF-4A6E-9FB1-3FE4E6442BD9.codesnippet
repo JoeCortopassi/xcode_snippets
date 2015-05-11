@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+- (void) setup&lt;#View Name#&gt;
+{
+    &lt;#View Name#&gt; = [[UILabel alloc] init];
+    &lt;#View Name#&gt;.translatesAutoresizingMaskIntoConstraints = NO;
+    [&lt;#Parent View#&gt; addSubview:&lt;#View Name#&gt;];
+    
+    
+    [&lt;#Parent View#&gt; addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:&lt;#Vertical Constraints#&gt;"
+                                                                            options:0
+                                                                            metrics:nil
+                                                                              views:NSDictionaryOfVariableBindings(&lt;#Variables Needed#&gt;)]];
+    [&lt;#Parent View#&gt; addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:&lt;#Horizontal Constraints#&gt;"
+                                                                            options:0
+                                                                            metrics:nil
+                                                                              views:NSDictionaryOfVariableBindings(&lt;#Variables Needed#&gt;)]];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>14F036FA-8DFF-4A6E-9FB1-3FE4E6442BD9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My Code Snippet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
